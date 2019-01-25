@@ -59,7 +59,7 @@
             android:layout_marginLeft="82dp" android:layout_marginStart="82dp" android:layout_marginBottom="55dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@+id/Agregar"
             android:layout_marginEnd="94dp" android:layout_marginRight="94dp"
-            style="@style/Widget.AppCompat.Button.Colored"/>
+            style="@style/Widget.AppCompat.Button.Colored" android:onClick="home"/>
     <Button
             android:text="Agregar"
             android:layout_width="wrap_content"
@@ -68,5 +68,6 @@
             app:layout_constraintStart_toEndOf="@+id/Regresar" android:layout_marginTop="66dp"
             app:layout_constraintTop_toBottomOf="@+id/Correo" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="54dp" android:layout_marginRight="54dp" android:layout_marginBottom="55dp"
-            app:layout_constraintBottom_toBottomOf="parent" style="@style/Widget.AppCompat.Button.Colored"/>
+            app:layout_constraintBottom_toBottomOf="parent" style="@style/Widget.AppCompat.Button.Colored"
+            android:onClick="nuevo"/>
 </android.support.constraint.ConstraintLayout>

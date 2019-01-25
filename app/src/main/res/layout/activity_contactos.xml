@@ -33,5 +33,5 @@
             app:layout_constraintTop_toBottomOf="@+id/_dynamic" android:layout_marginBottom="41dp"
             app:layout_constraintBottom_toBottomOf="parent" style="@style/Widget.AppCompat.Button.Colored"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="125dp"
-            android:layout_marginStart="125dp"/>
+            android:layout_marginStart="125dp" android:onClick="crear"/>
 </android.support.constraint.ConstraintLayout>
